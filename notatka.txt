@@ -1,0 +1,1 @@
+Poczatkowo kategorie miały być w filmach ale dzięki normalizacj 1NF i 3NF zostało to zmienione baza działała już w normalizacji 2NF
