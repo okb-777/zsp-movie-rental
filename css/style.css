@@ -38,8 +38,24 @@ a{
 }
 
 
+.main_index{
+    text-align: center;
+    width: 50%;
+    background-color: #e40000;
+    border: 3px solid black;
+    border-radius: 20px;
+    box-shadow: 15px 15px 20px #820000;
+    margin: auto;
+    color: white;
+}
 
-
+img{
+    width: 50%;
+    border: 3px solid black;
+    box-shadow: 5px 5px 20px #820000;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
 
 .nav{
     text-align: center;

@@ -7,6 +7,7 @@
         <?php
             $db = new mysqli ("localhost", "root", "", "filmy");
             $db -> query ('SET NAMES utf8');
+            session_start();
         ?>
     </head>
     <body>
