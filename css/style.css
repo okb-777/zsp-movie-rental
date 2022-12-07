@@ -37,7 +37,6 @@ a{
     text-decoration: none;
 }
 
-
 .main_index{
     text-align: center;
     width: 50%;
@@ -45,8 +44,20 @@ a{
     border: 3px solid black;
     border-radius: 20px;
     box-shadow: 15px 15px 20px #820000;
-    margin: auto;
     color: white;
+    margin: auto;
+}
+
+.main_logout{
+    text-align: center;
+    width: 15%;
+    height: 15%;
+    background-color: #e40000;
+    border: 3px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #820000;
+    color: white;
+    margin: auto;
 }
 
 img{
