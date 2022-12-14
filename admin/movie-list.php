@@ -18,15 +18,20 @@
                     while($row_filmy = $result_filmy -> fetch_array())
                     {
                         echo '<div class="lista">';
-                        echo $row_filmy['title'].'<br>';
-                        echo 'Kategoria: '.$row_filmy['category_name'].'<br>';
-                        echo '<form method="post" action="/filmy/admin/movie-details.php">';
-                            echo '<input type="hidden" name="film" value="'.$row_filmy['title'].'">';
-                                echo '<button type="submit" class="button-lista">Szczegóły Filmu</button>';
-                        echo '</form>';
+                            echo $row_filmy['title'].'<br>';
+                            echo 'Kategoria: '.$row_filmy['category_name'].'<br>';
+                            echo '<form method="post" action="/filmy/admin/movie-details.php">';
+                                echo '<input type="hidden" name="film" value="'.$row_filmy['title'].'">';
+                                    echo '<button type="submit" class="button-lista">Szczegóły Filmu</button>';
+                            echo '</form>';
                         echo '</div>';
                     }
                 }
+            ?>
+        </div>
+        <div>
+            <?php
+                include '../includes/footer.php';
             ?>
         </div>
     </body>

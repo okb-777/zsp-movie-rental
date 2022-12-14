@@ -18,7 +18,7 @@
                         while($row_filmy = $result_filmy -> fetch_array())
                         {
                             echo '<span style="font-weight: bolder; font-size: 13px">Tytuł: </span>'.$_POST['film'].'<br><br>';
-                            echo '<span style="font-weight: bolder; font-size: 13px">Opis: </span>'.$row_filmy['category_name'].'<br><br>';
+                            echo '<span style="font-weight: bolder; font-size: 13px">Kategoria: </span>'.$row_filmy['category_name'].'<br><br>';
                             echo '<span style="font-weight: bolder; font-size: 13px">Opis: </span>'.$row_filmy['description'].'<br><br>';
                             echo '<span style="font-weight: bolder; font-size: 13px">Reżyser: </span>'.$row_filmy['director'].'<br><br>';
                             echo '<span style="font-weight: bolder; font-size: 13px">Dodany przez: </span>'.$row_filmy['nick'].'<br><br>';
@@ -35,6 +35,11 @@
                     }
                 ?>
             </div>
+        </div>
+        <div>
+            <?php
+                include '../includes/footer.php';
+            ?>
         </div>
     </body>
 </html>

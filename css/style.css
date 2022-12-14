@@ -36,13 +36,20 @@ a{
     color: black;
     text-decoration: none;
 }
-hr{
-    
-}
 
 .main_index{
     text-align: center;
     width: 50%;
+    background-color: #e40000;
+    border: 3px solid black;
+    border-radius: 20px;
+    box-shadow: 15px 15px 20px #820000;
+    color: white;
+    margin: auto;
+}
+.main_szukanie{
+    text-align: center;
+    width: 25%;
     background-color: #e40000;
     border: 3px solid black;
     border-radius: 20px;
@@ -79,6 +86,13 @@ img{
     background-color: #c60000;
     box-shadow: 5px 5px 20px #820000;
 }
+
+.wyp{
+    padding: 10px;
+    margin: 10px;
+    background-color: #e40000;
+}
+
 .button-lista{
     height: 28px;
     width: 180px;
@@ -86,6 +100,12 @@ img{
     border-radius: 7px;
     color: white;
     background-color: #9d0000;
+}
+.krecha{
+    border: 1px solid black;
+}
+.szukanie{
+    padding: 10px;
 }
 
 .nav{

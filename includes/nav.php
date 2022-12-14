@@ -28,7 +28,6 @@
                     echo'| <a href=/filmy/>Strona Główna</a> | ';
                     echo'<a href=/filmy/sites/movie-search.php>Wyszukaj Film</a> | ';
                     echo'<a href=/filmy/sites/movie-my.php>Moje Filmy</a> | ';
-                    echo'<a href=/filmy/sites/movie-add.php>Dodaj Film</a> | ';
                     echo'<span>Zalogowany Jako ['.$_SESSION['login'].'] - </span>';
                     echo'<a href="/filmy/sites/logout.php">Wyloguj</a> |';
                     echo'</h5>'; 
